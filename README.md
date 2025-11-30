@@ -82,5 +82,3 @@ uvicorn api:app --reload
 Boom\! Server runs at `http://127.0.0.1:8000`.
 Check the API documentation at `http://127.0.0.1:8000/docs`.
 
-```
-```
