@@ -5,6 +5,10 @@ Hei bro ! Ini adalah repositori **Backend** (Otak) dari project **Tanya UU Naker
 
 Kalo frontend itu wajahnya, nah ini mesinnya
 
+## Evaluasi retrieval
+
+Ada 20 query dengan label pasal asli dan baseline BM25 yang bisa dijalankan tanpa API key di [`eval/`](eval/queries.jsonl). Hasilnya, termasuk masalah parser yang bikin `Pasal 33` menelan hampir seluruh UU, ada di [`docs/EVALUATION.md`](docs/EVALUATION.md). Angkanya baseline lokal, bukan angka embedding Pinecone produksi.
+
 ## Cara Jalanin di Localhost (Versi Indo)
 
 Mau oprek logikanya? Gas ikutin langkah ini:
